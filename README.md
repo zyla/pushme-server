@@ -1,5 +1,5 @@
 # pushme-server
-Django app wrapping Google Cloud Messaging service which provides api allowing you to send push messages to connected devices in one HTTP request. Simplicity of that design can be illustrated by [thit almost-one-liner script](./misc/send.sh):
+Django app wrapping Google Cloud Messaging service which provides api allowing you to send push messages to connected devices in one HTTP request. Simplicity of that design can be illustrated by [this almost-one-liner script](./misc/send.sh):
 
     #!/usr/bin/env bash
     API_URL=${API_URL:='api.pushme.neutrino.re'}
